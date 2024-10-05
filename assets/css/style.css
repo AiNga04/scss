@@ -1,0 +1,60 @@
+header {
+  background: cyan;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2, .btn1, .btn {
+  background-color: cyan;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+section {
+  background-color: aquamarine;
+  height: 400px;
+  text-align: center;
+}
+
+section button {
+  background-color: rgb(99, 205, 33);
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(255, 237, 136);
+  height: 300px;
+  text-align: center;
+}
+footer button {
+  background-color: rgb(99, 205, 33);
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+footer p {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

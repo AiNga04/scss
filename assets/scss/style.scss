@@ -1,0 +1,54 @@
+@import "_variables";
+@import "_header";
+@import "_mixins";
+@import "extend";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+section {
+  background-color: $color-aquamarine;
+  height: 400px;
+  text-align: center;
+}
+
+section button {
+  @include buttonStyle();
+}
+
+footer {
+  background-color: $color-footer;
+  height: 300px;
+  text-align: center;
+  button {
+    @include buttonStyle();
+  }
+
+  p {
+    color: $color-desc;
+  }
+}
+
+.btn {
+  @extend %buttonStyle;
+}
+
+.btn1 {
+  @extend %buttonStyle;
+}
+
+.btn2 {
+  @extend %buttonStyle;
+}
